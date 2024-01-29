@@ -91,4 +91,4 @@ async def talk(ctx,title: str,description:str,img:str):
 @bot.tree.command(name='roulette',description="...")
 async def roulette(ctx):
     await ctx.response.send_message(embed=Start)
-bot.run('MTA2Mjg2NTI5MDI3MjE5MDYxNQ.GST3ST.Yw2aLchPbSrRt7-NMNqT6jyu4GXMeluUVdyRmI')
+bot.run('TOKEN')
